@@ -1,0 +1,436 @@
+@charset "utf-8";
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+body{
+   
+    background-color: hsla(0, 0%, 75%, 0.37);
+	
+}
+
+
+a{  
+
+	text-decoration: none;
+}
+.title {
+	 background-color:hsl(0,0%,10%);
+    font-family: "Montserrat";
+    text-align: center;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width:400px;
+    letter-spacing: 1px;
+    cursor:pointer;
+    position: relative;
+
+    
+}
+.temno{
+	display:none;
+	z-index: 5;
+	width:1631px;
+	height: 2000px;
+	margin:-10px;
+	background-color: hsla(0,0%,0%,0.7);
+	position: relative;
+	bottom:1450px;
+}
+.login{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+input{
+	
+padding: 8px;
+	border: none;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  background-color: hsla(0, 2%, 37%, 0.37);
+}
+.password{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.main{
+	
+	position: relative;
+	width: 1631px;
+	height: 1000px;
+	margin-left: -10px;
+	background-color: hsl(0, 0%, 75% );
+	margin-right: -10px;
+}
+.login_win{
+    
+	bottom:3000px; 
+	margin: 50px auto;
+	position: relative;
+	border-radius: 16px;
+	z-index: 10;
+width:450px;
+height: 300px;
+background-color:hsl(0, 2%, 15%);
+display: none;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+#login_user{
+	margin-bottom: 15px;
+width: 200px;
+height: 30px;
+color:grey;
+
+}
+#pass_user{
+width: 200px;
+height: 30px;
+margin-bottom: 40px;
+color:grey;
+
+}
+.fontawesome-user{
+	border-right:3px;
+	line-height: 40px;
+	text-align: center;
+	width: 65px;
+	height: 46px;
+	font-family: 'FontAwesome', sans-serif;
+	background-color: #67606054;
+	color:white;
+}
+.fontawesome-lock{
+	
+	border-color: grey;
+	border-right: 3px;
+	line-height: 40px;
+	text-align: center;
+	width: 65px;
+	height: 46px;
+	font-family: 'FontAwesome', sans-serif;
+	background-color: #67606054;
+	color:white;
+}
+#singin{
+width:165px;
+height: 47px;
+background-color: #67606054;
+border:0px;
+font-size: 18px;
+font-family: 'Open Sans', Arial, sans-serif;
+color:white;
+border-radius: 10px;
+cursor: pointer;
+}
+h1 {
+    background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-size: 50px;
+    line-height: .75;
+    margin: 10px 0;
+    text-decoration: none;
+
+
+}
+p{
+	color:white;
+	font-family:Century Gothic;
+	font-size:17px;
+	text-decoration: none;
+}
+div.block_1{
+	z-index: 1;
+height:200px;
+background-color:hsl(0,0%,10%);
+margin-top:-10px;
+margin-left:-10px;
+margin-right:-15px;
+width:1631px;
+}
+div.menu{
+	z-index: 3;
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-start;
+	align-items:center;
+	position:relative;
+background-color:hsl(0,0%,12%);
+height:60px;
+bottom:200px;
+left:395px;
+font-weight:300;
+width:1235px;
+}
+div.news{
+	position:relative;
+	left:50px;
+	line-height : 28px;
+	color:#ffffff;
+	height:60px;
+	text-align: center;
+width:150px;
+background-color:hsl(0,0%,12%);
+
+}
+div.vid{
+	position:relative;
+	left:50px;
+	line-height : 28px;
+	color:#ffffff;
+	height:60px;
+	text-align: center;
+width:150px;
+background-color:hsl(0,0%,12%);
+
+}
+div.team{
+	position:relative;
+	left:50px;
+	line-height : 28px;
+	color:#ffffff;
+	height:60px;
+	text-align: center;
+width:150px;
+background-color:hsl(0,0%,12%);
+
+}
+div.cont{
+	position:relative;
+	left:50px;
+	line-height : 28px;
+	color:#ffffff;
+	height:60px;
+	text-align: center;
+width:150px;
+background-color:hsl(0,0%,12%);
+
+}
+div.news:hover{
+	cursor:pointer;
+	line-height : 28px;
+	color:red;
+	height:60px;
+	text-align: center;
+width:150px;
+background-color:hsl(0,0%,12%);
+border-bottom:2px solid red;
+
+}
+div.vid:hover{
+	cursor:pointer;
+	line-height : 28px;
+	color:red;
+	height:60px;
+	text-align: center;
+width:150px;
+background-color:hsl(0,0%,12%);
+border-bottom:2px solid red;
+
+}
+div.team:hover{
+	cursor:pointer;
+	line-height : 28px;
+	color:red;
+	height:60px;
+	text-align: center;
+width:150px;
+background-color:hsl(0,0%,12%);
+border-bottom:2px solid red;
+
+}
+div.cont:hover{
+	cursor:pointer;
+	line-height : 28px;
+	color:red;
+	height:60px;
+	text-align: center;
+width:150px;
+background-color:hsl(0,0%,12%);
+border-bottom:2px solid red;
+
+}
+.vk{
+	position:relative;
+	left:90px;
+	cursor:pointer;
+	top:3px;
+	z-index: 10;
+
+}
+.discord{
+position:relative;
+	left:100px;	
+	cursor:pointer;
+	top:3px;
+	z-index: 10;
+
+}
+.vk1{
+position:relative;
+	left:38px;
+	cursor:pointer;
+	top:3px;
+	z-index: 1;
+
+}
+.discord1{
+position:relative;
+	left:48px;	
+	cursor:pointer;
+	top:3px;
+	z-index: 1;
+
+}
+.vk:hover{
+	position:relative;
+	left:90px;
+	cursor:pointer;
+	top:3px;
+	z-index: 1;
+
+}
+.discord:hover{
+position:relative;
+	left:100px;	
+	cursor:pointer;
+	top:3px;
+	z-index: 1;
+
+}
+.vk1:hover{
+position:relative;
+	left:38px;
+	cursor:pointer;
+	top:3px;
+	z-index: 10;
+
+}
+.discord1:hover{
+position:relative;
+	left:48px;	
+	cursor:pointer;
+	top:3px;
+	z-index: 10;
+
+}
+.vhod_menu{
+	position:relative;
+	left:1400px;
+	bottom:200px;
+	background-color:hsl(0,0%,10%);
+	width:200px; 
+	height: 140px;
+	display:flex;
+	flex-direction: column;
+	
+	justify-content:flex-start;
+}
+.vhod{
+	z-index: 3;
+	align-items:center;
+	flex-direction:row;
+	justify-content:space-around;
+	left:1430px;
+	
+	display:flex;
+	background-color: hsl(0,0%,12%);
+
+	height:40px;
+	width:200px;
+	color:white;
+	font-size:10px;
+	font-family:Century Gothic;
+	
+}
+p1{
+	font-size:12px;
+	color:red;
+	font-family:Century Gothic;
+}
+.lang:hover{
+	cursor:pointer;
+	color:red;
+	
+}
+.vouti:hover{
+	cursor: pointer;
+	color:red;
+
+}
+
+
+.lang_menu{
+	
+	height:100px;
+	width:100px;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: white;
+	color:(0,0%,10%);
+	font-size: 10px;
+	align-items:center;
+}
+
+
+
+.english{
+	font-family:Century Gothic;
+	height:20px;
+	cursor:pointer;
+}
+.russian{
+	font-family:Century Gothic;
+	height:20px;
+	cursor:pointer;
+}
+
+.english:hover{
+		cursor:pointer;
+	color:red;
+
+}
+.russian:hover{
+	
+cursor:pointer;
+color:red;
+}
+.podval{
+    position: relative;
+   
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 1631px;
+	height: 250px;
+	margin-left: -10px;
+	background-color: hsl(0,0%,10%);
+}
+.demon_logo{
+	position: relative;
+	right:150px;
+}
+.wth_prava{
+	right:100px;
+	position:relative;
+	bottom:30px;
+font-family:Century Gothic;
+	color:hsl(0,0%,60%);;
+}
+
+  
